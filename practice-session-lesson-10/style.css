@@ -1,3 +1,12 @@
+* {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    
+}
+h1, h3 {
+    font-family: 'Satisfy', cursive;
+}
 html {
     height: 100%;
 }
@@ -8,6 +17,7 @@ body {
 
 h1 {
     font-size: 3em;
+    color: #292570;
 }
 
 
@@ -17,10 +27,25 @@ img {
 
 
 main {
-    border: 10px solid #292570;
-    background-color: #444082;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #4b3b75; 
+    border: 10px solid #332c5c;
+    box-sizing: border-box;
 }
 
 div {
-    background-color: #292570;
+display: inline-block;
+  width: 320px; 
+  margin: 50px;
+  padding: 10px;
+  background-color: #2e2152;
+  text-align: center;
+  vertical-align: top;
+  color: white;
+  box-sizing: border-box;
+}
+#mom {
+    background-color: #1f1c54
 }
